@@ -1,10 +1,10 @@
 # 0805_回家作業＿
 * 賣家可藉由此管理賣場的商品，進行全部商品的查看，或進行商品價格/庫存/介紹的修改，以及上架/下架商品
 ##  Model
-* private String name;
-* private int price;
-* public int stock;
-* private String description;
+* private String name.       //商品名稱
+* private int price          //商品價格
+* public int stock           //商品庫存   
+* private String description //商品描述 
 
 ## Service
 *  public List<Shop> getAllShops(){...} </br>
